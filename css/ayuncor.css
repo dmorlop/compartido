@@ -1,0 +1,1501 @@
+/* TITULO PRINCIPAL APLICACION */
+#tituloAplicacion {
+	width: 90%;
+ 	height: 38px;
+	text-align: center !important;
+	font-size: 1.3em;
+	color: white !important;
+}
+
+.soloLectura{
+	background-color: #feeebd !important;
+	font-weight: bold !important;
+	color: black !important;
+}
+
+.resaltado{
+	font-weight: bold !important;
+	color: black !important;
+	font-style: italic important;
+}
+
+.resaltadoTotales{
+	font-weight: bold !important;
+	color: black !important;
+	font-style: italic important;
+/*	border: 1px !important;
+	    border-top-style: solid !important;
+	    border-top-width: 1px !important;
+	    border-right-style: none;
+	    border-right-width: 0px;
+	    border-bottom-style: none;
+	    border-bottom-width: 0px;
+	    border-left-style: none;
+	    border-left-width: 0px;
+	border-color: inherit;
+	border-style: solid !important;
+	border-width: 1px !important;*/
+}
+
+.labelConBordes{
+	font-weight: bold !important;
+	color: black !important;
+	font-style: italic important;
+	border: 1px !important;
+	border-color: inherit;
+	border-style: solid !important;
+	border-width: 1px !important;*/
+}
+
+.labelDip{
+	font-weight: bold !important;
+	color: black !important;
+	/*background-color:#A5D6A7 !important;*/
+	border: 1px !important;
+	border-color: black;
+	border-style: solid !important;
+	border-width: 1px !important;
+	padding: 2px 2px !important;
+/*	padding-left: 1px !important;
+	padding-right: 1px !important;*/
+}
+
+.panelEquipo, .ui-panelgrid-cell{
+	background-color:#C6D6DF ;
+	border: 1px !important;
+	border-color: black;
+	border-style: solid !important;
+	border-width: 1px !important;
+	padding: 2px 5px !important;
+}
+
+.tituloAplicacion {
+	width: 100%;
+	text-align: center !important;
+	margin: 3px 1.3px 0 0;
+}
+
+#tituloAplicacion .h1PpalAyun {
+	text-shadow: 1px 2px black;
+	color: lightyellow !important;
+}
+
+#tituloAplicacion .h1SecondAyun {
+	text-shadow: 1px 2px black;
+	color: powderblue !important;
+	font-size: 2em;
+	margin-left: 14px;
+}
+
+/* Estilos para el index de la plantilla */
+.marginTopBottom1em {
+	margin-top: 1em !important;
+	margin-bottom: 1em !important;	
+}
+
+/* TITULOS */
+.rayado {
+    border-bottom: 1px solid lightblue;
+    margin-bottom: 10px !important;
+    padding-bottom: 8px !important;	
+}
+
+#footer {
+	text-align: right;
+	right:7px;
+	bottom:0;
+}
+
+.normal{
+	
+}
+
+.sinPaddingLeft {
+	padding-left: 0!important;
+}
+
+.sinPaddingBottom {
+	padding-bottom: 0!important;
+}
+
+.sinMarginBottom {
+	margin-bottom: 0!important;
+}
+
+.cuerpoCard {
+	min-height: 700px;
+}
+
+#logo img {
+    height: 63px!important;
+    margin-top: 0!important;
+    max-width: 186px!important;	
+    margin-left: 23%!important;
+}
+
+.filtroTabla .ui-inputfield {
+	font-size: 11px!important;
+}
+
+.filtroTabla .ui-selectonemenu {
+	min-width: 100px!important;
+}
+
+.botonSinFondo, .botonSinFondo .ui-button-text {
+	background-color: transparent !important;
+	font-weight: bold;
+	color: #0091ea!important;
+}
+
+.botonEnHeader, .botonEnHeader .ui-button-text {
+	background-color: transparent !important;
+	font-weight: bold; 
+	color: white !important;
+	border: none !important;
+	-webkit-border-radius: 30px !important;
+}
+
+
+.botonEnHeaderConMarco, .botonEnHeaderConMarco .ui-button-text {
+	background-color: rgba(17,84,146,1) !important;
+	font-weight: bold; 
+	color: white !important;
+	border-color: white !important;
+	border: solid 1px !important;
+	border-top: solid 1px !important;
+	-webkit-border-radius: 3px !important;
+}
+
+.tabla100p, .tabla100p thead tr th,, .tabla100p thead tr td, .tabla100p tbody tr th,, .tabla100p tbody tr td {
+	width: 100%!important;
+}
+
+.sinBordes, .sinBordes tr, .sinBordes th, .sinBordes td{
+	border: 0px !important;
+	border-color: inherit;
+    border-style: none!important;
+    border-width: 0px!important;
+}
+
+.sinBordes .ui-panelgrid tbody tr td {
+	border: 0px !important;
+}
+
+.sinBordes .ui-fieldset{
+	border: 0px !important;
+}
+
+.sinBordes .ui-panelgrid tbody tr th td, .sinBordes .ui-panelgrid .ui-panelgrid-cell {
+	border: 0px !important;
+	border-color: inherit;
+    border-style: none!important;
+    border-width: 0px!important;
+}
+
+.calendarHora{
+	width: 10em !important;
+	min-width: 6em !important;
+}
+
+.calendarHora .ui-datepicker #p-datepicker{
+	width: 10em !important;
+	min-width: 6em !important;
+}
+
+.calendarHora .p-datepicker{
+	width: 10em !important;
+	min-width: 6em !important;
+}
+
+.calendarFechaRegistro input {
+	width: 86% !important;
+}
+
+.calendarFechaBaja input {
+	width: 91% !important;
+}
+
+.tipoAsociacionSelect {
+	width: 86% !important;
+}
+
+.tipoOrganismosSelect {
+	width: 86% !important;
+}
+
+.consejoSelect {
+	min-width: 79% !important;
+	max-width: 79% !important;
+	width: 79% !important;
+}
+
+.barrioSelect {
+	min-width: 85% !important;
+	max-width: 85% !important;
+	width: 85% !important;
+}
+
+.tConsejoSelect {
+	min-width: 79% !important;
+	max-width: 79% !important;
+	width: 79% !important;
+}
+
+.tAsociacionSelect {
+	min-width: 85% !important;
+	max-width: 85% !important;
+	width: 85% !important;
+}
+
+.tOrganismoSelect {
+	min-width: 70% !important;
+	max-width: 70% !important;
+	width: 70% !important;
+}
+
+.autocompleteCargos {
+	width: 100% !important;
+}
+
+.autocompleteCargos input {
+	width: 100% !important;
+}
+
+/* COLUMNAS */
+.columna2p {
+	width: 2%!important;
+}
+.columna4p {
+	width: 4%!important;
+}
+.columna5p {
+	width: 5%!important;
+}
+.columna6p {
+	width: 6%!important;
+}
+.columna7p {
+	width: 7%!important;
+}
+.columna7_2p {
+	width: 7.2%!important;
+}
+.columna10p {
+	width: 10%!important;
+}
+.columna12p {
+	width: 12%!important;
+}
+.columna12_5p {
+	width: 12.5%!important;
+}
+.columna15p {
+	width: 15%!important;
+}
+.columna16p {
+	width: 16%!important;
+}
+.columna17p {
+	width: 17%!important;
+}
+.columna18p {
+	width: 18%!important;
+}
+.columna20p {
+	width: 20%!important;
+}
+.columna25p {
+	width: 25%!important;
+}
+.columna30p {
+	width: 30%!important;
+}
+.columna33p {
+	width: 33%!important;
+}
+.columna35p {
+	width: 35%!important;
+}
+.columna40p {
+	width: 40%!important;
+}
+.columna50p {
+	width: 50%!important;
+}
+.columna56_5p {
+	width: 56.5%!important;
+}
+.columna60p {
+	width: 60%!important;
+}
+.columna70p {
+	width: 70%!important;
+}
+.columna85p {
+	width: 85%!important;
+}
+.columna80p {
+	width: 80%!important;
+}
+.columna90p {
+	width: 90%!important;
+}
+.columna91p {
+	width: 91%!important;
+}
+.columna92p {
+	width: 92%!important;
+}
+.columna95p {
+	width: 95%!important;
+}
+.columna96p {
+	width: 96%!important;
+}
+.columna97p {
+	width: 97%!important;
+}
+.columna98p {
+	width: 98%!important;
+}
+.columna100p {
+	width: 100%!important;
+}
+
+.tamano48p {
+	width: 48%!important;
+}
+.tamano50p {
+	width: 50%!important;
+}
+.tamano67p {
+	width: 67% !important;
+}
+.tamano87p {
+	width: 87% !important;
+}
+.tamano95p {
+	width: 95%!important;
+}
+.tamano96p {
+	width: 96%!important;
+}
+.tamano97p {
+	width: 97%!important;
+}
+.tamano98p {
+	width: 98%!important;
+}
+.tamano99p {
+	width: 99%!important;
+}
+.tamano100p {
+	width: 100%!important;
+}
+
+.tamano30px {
+	width: 30px!important;
+}
+.tamano60px {
+	width: 60px!important;
+}
+.tamano90px {
+	width: 90px!important;
+}
+
+.tamano130px {
+	width: 130px!important;
+}
+
+.tamano150px {
+	width: 150px!important;
+}
+
+.tamano300px {
+	width: 300px!important;
+}
+
+.tamano650px {
+	width: 650px!important;
+}
+
+.tamano777px {
+	width: 777px!important;
+}
+
+.tamano800px {
+	width: 800px!important;
+}
+
+.input100p {
+	width: 100%!important;
+}
+
+.inputToolsActas{
+	width: 100%!important;
+	margin-left: 0%;
+	
+}
+
+.input100p_view {
+	width: 95%!important;
+	white-space: pre-wrap;
+}
+
+.input99p {
+	width: 99%!important;
+}
+
+.input98p {
+	width: 98%!important;
+}
+
+.input97p {
+	width: 97%!important;
+}
+
+.input96p {
+	width: 96%!important;
+}
+
+.input95p {
+	width: 95%!important;
+}
+
+.input94p {
+	width: 94%!important;
+}
+
+.input93p {
+	width: 93%!important;
+}
+
+.input92p {
+	width: 92%!important;
+}
+
+.input91p {
+	width: 91%!important;
+}
+
+.input90p {
+	width: 90%!important;
+}
+
+.input83p {
+	width: 83%!important;
+}
+
+.input82p {
+	width: 82%!important;
+}
+
+.input81p {
+	width: 81%!important;
+}
+
+.input80p {
+	width: 80%!important;
+}
+
+.input84p {
+	width: 84%!important;
+}
+
+.input85p {
+	width: 85%!important;
+}
+
+.input86p {
+	width: 86%!important;
+}
+
+.input87p {
+	width: 87%!important;
+}
+
+.input88p {
+	width: 88%!important;
+}
+
+.input89p {
+	width: 89%!important;
+}
+
+.input70p {
+	width: 70%!important;
+}
+
+.input71p {
+	width: 71%!important;
+}
+
+.input76p {
+	width: 76%!important;
+}
+
+.input78p {
+	width: 78%!important;
+}
+
+.input69p {
+	width: 69%!important;
+}
+
+.input68p {
+	width: 68%!important;
+}
+
+.input66p {
+	width: 66%!important;
+}
+
+
+.input65p {
+	width: 66%!important;
+}
+
+.input64p {
+	width: 64%!important;
+}
+
+.input62p {
+	width: 62%!important;
+}
+
+.input60p {
+	width: 60%!important;
+}
+
+.input57p {
+	width: 57%!important;
+}
+
+.input55p {
+	width: 55%!important;
+}
+
+.input52p {
+	width: 52%!important;
+}
+
+.input50p {
+	width: 50%!important;
+}
+
+.input46p {
+	width: 46%!important;
+}
+
+.input44p {
+	width: 44%!important;
+}
+
+.input42p {
+	width: 42%!important;
+}
+
+.input40p {
+	width: 40%!important;
+}
+
+.input38p {
+	width: 38%!important;
+}
+
+.input36p {
+	width: 36%!important;
+}
+
+.input35p {
+	width: 35%!important;
+}
+
+.input34p {
+	width: 34%!important;
+}
+
+.input30p {
+	width: 30%!important;
+}
+
+.input29p {
+	width: 29%!important;
+}
+
+.input28p {
+	width: 28%!important;
+}
+
+.input27p {
+	width: 27%!important;
+}
+
+.input26p {
+	width: 26%!important;
+}
+
+.input25p {
+	width: 25%!important;
+}
+
+.input24p {
+	width: 24%!important;
+}
+
+.input23p {
+	width: 23%!important;
+}
+
+.input22p {
+	width: 22%!important;
+}
+
+.input21p {
+	width: 21%!important;
+}
+
+.input20p {
+	width: 20%!important;
+}
+
+.input19p {
+	width: 19%!important;
+}
+
+.input17p {
+	width: 17%!important;
+}
+
+.input16p {
+	width: 16%!important;
+}
+
+.input15p {
+	width: 15%!important;
+}
+
+.input14p {
+	width: 14%!important;
+}
+
+.input14_28p {
+	width: 14.28% !important;
+}
+
+.input13p {
+	width: 13%!important;
+}
+
+.input12p {
+	width: 12%!important;
+}
+
+.input11p {
+	width: 11%!important;
+}
+
+
+.input40p {
+	width: 40%!important;
+}
+
+.input45p {
+	width: 45%!important;
+}
+
+.input50p {
+	width: 50%!important;
+}
+
+input10_3p {
+	width: 10.3%!important;
+}
+
+.input10p {
+	width: 10%!important;
+}
+
+.input9p {
+	width: 9%!important;
+}
+
+.input7p {
+	width: 7%!important;
+}
+
+.input6p {
+	width: 6%!important;
+}
+
+.input5p {
+	width: 5%!important;
+}
+
+.input4p {
+	width: 4%!important;
+}
+
+.input3p {
+	width: 3%!important;
+}
+
+/* TAMANOS LETRA */
+
+.letra20 {
+	font-size: 20px !important;
+}
+
+.letra20 table, .letra20 table tbody tr td  {
+	font-size: 20px !important;
+}
+
+.letra16 {
+	font-size: 16px !important;
+}
+
+.letra16 table, .letra16 table tbody tr td  {
+	font-size: 16px !important;
+}
+
+/* ALINEACIONES TEXTO */
+.textoCentro {
+	text-align: center !important;
+}
+
+.textoIzquierda {
+	text-align: left !important;
+}
+
+.textoDerecha {
+	text-align: right !important;
+}
+
+.mayusculas {
+	text-transform: uppercase;
+}
+
+.minusculas{
+	text-transform: lowercase;
+}
+
+.primeraMayuscula {
+	text-transform: capitalize;
+}
+
+.botonSinFondo span.tamano50px {
+	top: 15% !important;
+	font-size: 50px !important;
+}
+
+.botonSinFondo span.tamano16px {
+	top: 15% !important;
+	font-size: 16px !important;
+}
+
+.columnaNif input {
+	width: 26px!important;
+}
+
+.tablaGrandeEspaciada td {
+    padding-top: .5em !important;
+    padding-bottom: .5em !important;	
+}
+
+.campoAutocomplete, .campoAutocomplete input {
+	width: 98% !important;
+}
+
+.tablaAlignTop {
+	vertical-align: top !important;
+}
+
+.tablaAlignTop td, .tablaAlignTop label, .tablaAlignTop input {
+	vertical-align: top !important;
+}
+
+.tablaAlignCenter {
+	vertical-align: middle !important;
+}
+
+.tablaHAlignCenter {
+	display: inherit;
+    align-items: center;
+}
+
+.tablaAlignCenter td, .tablaAlignCenter label, .tablaAlignCenter input {
+	vertical-align: middle !important;
+}
+
+.tablaAlignCenter label{
+	padding-top: 5% !important;
+}
+
+
+.diagramaProcedimientos .ui-diagram-element {   
+    width:14em; 
+    height:4em;     
+    line-height:4em;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+    border-radius: 4px;
+    border: 1px solid transparent;
+    background-color: #98AFC7;
+    color: #ffffff;
+}
+
+.diagramaProcedimientos .ui-diagram-success {
+    background-color: #9CB071;
+    color: #ffffff;
+    border-color: #7ab02c;
+}
+
+.diagramaProcedimientos .ui-diagram-fail {
+    background-color: #C34A2C;
+    color: #ffffff;
+}
+
+.diagramaProcedimientos .flow-label {
+    font-size: 24px;
+    font-weight: bold;
+    color: #816A51;
+}
+
+.letraPequena {
+	font-size:12px !important;
+}
+
+.letraPequena table, .letraPequena table th, .letraPequena table td {
+	font-size:12px !important;
+}
+
+.letraPequena table tbody td {
+	padding: 0px !important;
+	padding-left: 5px !important; 	
+}
+
+.letra14, .letra14 .ui-outputlabel, .letra14 .ui-inputfield {
+	font-size: 14px !important;
+}
+
+.letra12, .letra12 .ui-outputlabel, .letra12 .ui-inputfield, 
+.letra12 .ui-tabs-top .ui-tabs-nav li a, 
+.letra12 .ui-datatable table thead tr th, .letra12 .ui-datatable table tbody tr th {
+	font-size: 12px !important;
+}
+
+
+.separa-bottom-20px {
+	margin-bottom: 20px !important;
+}
+
+.separa-bottom-15px {
+	margin-bottom: 15px !important;
+}
+
+.separa-bottom-10px {
+	margin-bottom: 10px !important;
+}
+
+.separa-bottom-5px {
+	margin-bottom: 5px !important;
+}
+
+#layout-portlets-cover-sin-menu {
+	display: block;
+	vertical-align: top;
+	padding: 25px 10px 30px 0.1%;
+	margin-left: 0;
+}
+
+input[readonly], textarea[readonly], input.ui-state-disabled, textarea[disabled] {
+	background-color: #feeebd !important;
+	color: black !important;
+	font-weight: bold !important;
+	opacity: 1 !important;
+}
+
+.calendar50p input{
+	width: 50% !important;
+}
+
+.calendar87p input{
+	width: 87% !important;
+}
+
+.botonLetraNegro .ui-button-text {
+	color: #000;
+	font-weight: bold;
+}
+
+.valueBoton .ui-button-text {
+	border: 0px !important;
+	background-color: gray !important;
+}
+
+.valueBoton .ui-state-active .ui-button-text {
+	border: 0px !important;
+	background-color: gray !important;
+}
+
+.paddingTop11px {
+	padding-top: 11px !important;
+}
+
+.clearfix {
+	clear: both;
+    overflow: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.capaLetra12px, .capaLetra12px .ui-outputlabel, .capaLetra12px .ui-inputfield {
+	font-size: 12px !important;
+}
+
+.capaLetra13px, .capaLetra13px .ui-outputlabel, .capaLetra13px .ui-inputfield {
+	font-size: 13px !important;
+}
+
+.capaLetra14px, .capaLetra14px .ui-outputlabel, .capaLetra14px .ui-inputfield {
+	font-size: 14px !important;
+}
+
+.capaLetra12 .ui-datatable table thead tr th, .capaLetra12 .ui-datatable table tfoot tr td, .capaLetra12 .ui-datatable table thead tr th, .capaLetra12 .ui-datatable table tbody tr td {
+	font-size: 12px !important;
+} 
+
+.capaLetra13 .ui-datatable table thead tr th, .capaLetra13 .ui-datatable table tfoot tr td, .capaLetra13 .ui-datatable table thead tr th, .capaLetra13 .ui-datatable table tbody tr td {
+	font-size: 13px !important;
+} 
+
+.capaLetra14 .ui-datatable table thead tr th, .capaLetra14 .ui-datatable table tfoot tr td, .capaLetra14 .ui-datatable table thead tr th, .capaLetra14 .ui-datatable table tbody tr td {
+	font-size: 13px !important;
+} 
+
+.tituloTab {
+	margin-left: 5px!important;
+}
+
+.tituloTab12px {
+	font-size: 12px !important;
+}
+
+.tituloTab13px {
+	font-size: 13px !important;
+}
+
+.tituloTab14px {
+	font-size: 14px !important;
+}
+
+.asociacionDataTable .ui-button-icon-only {
+	width: 1em !important;
+	min-width: 24px !important;	
+}
+
+.botonTabla {
+	width: 1em !important;
+	min-width: 24px !important;	
+}
+
+.panelMarca {
+	border: none !important;
+	/*border-bottom: 1px solid #E0E0E0 !important;*/
+}
+
+.panelMarca .ui-panel-titlebar {
+	border-radius: 3px !important;
+	padding: 3px 20px !important;
+	background: #00559b; /* Old browsers */
+	background: -moz-linear-gradient(left, #00559b 0%, #2989d8 14%, #bad1e2 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #00559b 0%,#2989d8 14%,#bad1e2 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #00559b 0%,#2989d8 14%,#bad1e2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00559b', endColorstr='#bad1e2',GradientType=1 ); /* IE6-9 */	
+}
+
+.panelMarca a.ui-panel-titlebar-icon {
+	margin-top: 5px !important;
+}
+
+.ui-stack span {
+	min-width: 100px !important;
+}
+
+.altura200 {
+	min-height: 200px !important;
+}
+
+.dataEstrecho a, .dataEstrecho select {
+	padding: 0px 0px !important;
+}
+
+.inputMarca {
+	padding: 5px 10px !important;
+}
+
+.cardMarca {
+	 padding: 0px !important;
+}
+
+.containerMarcaMiga {
+	padding: 7px 10px 0px 10px !important; 
+}
+
+.ui-menu .ui-menu-parent .ui-menu-child {
+	width: 24em !important;
+}
+
+.tablaVerticalAlignTop {
+	vertical-align: top !important;
+} 
+
+.tablaVerticalAlignTop tbody {
+	vertical-align: inherit !important;
+}
+
+
+/* MENSAJES GROWL DE PRIMEFACES  */
+div.ui-growl.ui-widget {
+	z-index: 100000 !important;
+}
+
+div.ui-growl {
+	width: 20% !important;
+}
+
+div.ui-growl-message {
+	width: 93% !important;
+}
+
+
+/* iconos */
+
+.ui-icon-documento {
+	background-position: -32px -96px;
+}
+
+.ui-icon-solicitud {
+	background-position: -16px -96px;
+}
+
+/*Estilos para portafirmas y CYR */
+.ENVIADO_CYR {
+	color: red !important;
+}
+
+.REMESA_CYR {
+	color: yellow !important;
+}
+
+.ENTREGADO_CYR {
+	color: green !important;
+}
+
+.FIRMADO {
+	color: green !important;
+}
+
+.NO_LEIDO {
+	color: red !important;
+}
+
+.LEIDO {
+	color: #909016 !important;
+}
+
+.DEVUELTO {
+	color: #FF00FF !important;
+}
+
+.CORRECTO {
+	color: green !important;
+}
+
+.ERRONEO {
+	color: red !important;
+}
+
+.SIN_VALIDAR {
+	color: orange !important;
+}
+
+/* MODIFICACIONES PARA LA PANTALLA SIN LATERAL IZQUIERDO */
+#layout-portlets-cover_100 {
+	margin-left: 0!important;
+}
+
+.Fleft_100 {
+	width: 100%;
+}
+
+#tituloAplicacion_completo {
+	width: 74%;
+	text-align: left !important;
+	font-size: 1.3em;
+	color: white !important;
+	margin-left: 10px;
+}
+
+.tituloAplicacion_completo {
+	width: 100%;
+	text-align: left !important;
+	margin: 3px 1.3px 0 0;
+	margin-top: 7px;
+}
+
+#tituloAplicacion_completo .h1PpalAyun {
+	text-shadow: 1px 2px black;
+	color: lightyellow !important;
+	margin-left: 20px;
+}
+
+#tituloAplicacion_completo .h1SecondAyun {
+	text-shadow: 1px 2px black;
+	color: powderblue !important;
+	font-size: 2em;
+	margin-left: 14px;
+}
+
+.ContainerIndent {
+	padding: 3px !important;
+}
+
+.imagenLogo {
+	width: 100px;
+}
+
+#top-menu-usuario {
+    margin: 8px 2% 0px 0px;
+    padding: 0px;
+    float: right;
+    text-align: right !important;
+    text-transform: uppercase;
+    color: white !important;
+	font-weight: bold;
+	font-family: arial;
+}
+
+.top-menu-completo {
+	margin-top: -47px !important;
+}
+
+.top-menu-usuario {
+	margin-top: -40px !important;
+}
+
+.titleFiltros {
+    background-color: rgba(17,84,146,1) !important;
+    color: #ffffff;
+}
+
+
+/* Cambiado referencias Temas Rio */
+#logo {
+		background-color: white;
+}
+#layout-topbar{
+	background-color: rgba(17,84,146,1);
+}
+
+.ui-dialog-titlebar {
+    background-color: rgba(17,84,146,1) !important;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+	    color: white !important;
+}
+
+/* Fin cambio Rio */
+.ui-paginator-rpp-option {
+	padding: 0px 3px !important;
+}
+
+.tablaMarca .ui-datatable-header { 
+	height: 35px
+}
+
+.tablaMarca .ui-datatable-header h2 {
+	float: left;	
+}
+
+.botonTablaNormal span.ui-button-text{
+	padding: 7px 20px 7px 40px !important;
+	font-size: 12px;
+	margin: 3px;
+	margin-top: 5px;
+	vertical-align: middle !important;
+}
+
+.botonTablaNormal span.ui-icon {
+	color: white;
+}
+
+.marginTop67px {
+	margin-top: 67px !important;
+}
+
+.ui-splitbutton .ui-button.ui-splitbutton-menubutton {
+    top: 2px !important;
+}
+
+.tituloTramites {
+	color: #717171;
+	float: left;
+}
+
+.iconoPestanasTramites {
+	color: #717171;
+	float: left;
+	margin-top: 5px;
+	margin-right: 8px;	
+}
+
+.lineaTituloTramites {
+	color: #FFF;
+}
+
+.iconoTab {
+	margin-right: 8px;	
+	opacity: 0.5;
+}
+
+li.ui-state-hover i {
+	opacity: 1;
+}
+
+li.ui-state-active i {
+	opacity: 1;
+}
+
+.iconoLink {
+	background-color: #03a9f4 !important;
+	color: white !important;
+	padding: 5px 10px !important;
+	vertical-align: middle !important;
+}
+
+.iconoLink span.fa, .miFa {
+	font-size: 16px !important;
+	vertical-align: middle !important;
+}
+
+.miFa {
+	margin-top: -2px !important;
+}
+
+.botonDescargaCuadrado {
+	width: auto !important;
+}
+.botonDescargaCuadrado .ui-button.ui-button-icon-only .ui-button-text {
+	padding: 5px 10px !important;
+}
+.botonDescargaCuadrado span.ui-button-text {
+	background-color: #03a9f4 !important;
+	color: white !important;	
+	border-radius: 0px !important;
+	-webkit-border-radius: 0px !important;
+	font-size: 16px;
+	padding: 5px 10px !important;
+}
+
+.botonDescargaCuadrado span.ui-icon {
+	color: white !important;	
+}
+
+.datasMarca .ui-datalist-header, .datasMarca .ui-button-text {
+	padding: 0px !important;
+}
+
+.datasMarca .ui-datalist-data {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+.panelAdjuntarDocumentoCSS {
+	padding: 10px 5px;
+	background-color: #ffe399;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.panelAdjuntarDocumentoCSS .botonInterior {
+	margin-top: 10px !important;
+	margin-left: 15px !important;
+}
+
+.panelAdjuntarDocumentoCSS .botonInterior span.ui-button-text {
+	background-color: #E8F0F5 !important; 
+	color: black !important;
+}
+
+.botonEstrecho span.ui-button-text.ui-c{
+	padding: 5px 13px 5px 30px !important;
+	font-size: 11px !important;
+}
+
+.tablaCambios tr.ui-datatable-odd, .tablaCambios tr.ui-datatable-even {
+	background-color: #EEF2F7 !important;
+}
+
+.DataTableFs13 table th, .DataTableFs13 table td {
+	font-size: 13px !important;
+}
+
+.ui-radiobutton .ui-state-active {
+    background-color: #26C6DA !important;
+}
+
+.ui-radiobutton .ui-state-active .ui-icon-bullet, .ui-radiobutton .ui-state-focus .ui-icon-bullet {
+	background-color: transparent !important;
+	}
+	
+.mensajes{
+	margin-left: 10px;
+	color:red; 
+	font-size: 10px;
+	width: 200px !important;
+}
+
+   /* Mis estilos de colores*/
+
+	
+
+	.panelTitleGradient {
+		border: none !important;
+	
+	}
+
+	.panelTitleGradient .ui-panel-titlebar{
+		background: rgba(17,84,146,1);	
+		padding: 5px 20px !important;
+		font-size: 14px !important;
+		font-weight: bold !important;
+	}
+	
+	table th {
+		text-align: center !important;
+		font-size: 12px !important;
+	}
+	
+	table .ui-column-filter {
+		display: block !important;
+		width: 100% !important;
+	}
+	
+	table th input.ui-column-filter {
+		margin-top: 5px !important;
+		font-size: 12px !important;
+		padding: 3px 3px !important;
+	}
+	
+	table .ui-paginator-bottom {
+		width: 100% !important;
+	}
+	.ui-button-text{ 
+		background: rgba(17,84,146,1);
+	}
+	.ui-datatable-scrollable-header-box table thead tr th, .ui-datatable-scrollable-footer-box table tfoot tr td{
+		background: #dae8ef;
+	}
+
+
+	.ui-datatable table thead tr th, .ui-datatable table tfoot tr td, .ui-datatable table thead tr th {
+		background: #dae8ef;
+		/* Titulos del datatable */
+		color: #12384A;
+	}
+	.ui-panel .ui-panel-titlebar {
+		background: rgba(17,84,146,1);
+		padding: 5px 20px !important;
+		font-size: 14px !important;
+		font-weight: bold !important;
+	}
+	
+	.ui-datatable .ui-paginator-bottom {
+		background: rgba(17,84,146,1);
+		padding: 0px 0px !important;
+		font-size: 14px !important;
+		font-weight: bold !important;
+	}
+	.ui-tabs-top .ui-tabs-nav{
+		background: rgba(17,84,146,1);
+		padding: 0px 20px !important;
+		font-size: 14px !important;
+		font-weight: bold !important;
+	}
+	
+	.textoTituloCabecera {
+		color: white;
+	}
+	.ui-datatable table tbody tr td {
+		color: #1E1F20;
+	}
+	
+	/* Flechitas de las cabeceras del datatable */
+	.ui-datatable table thead tr .ui-state-default .ui-icon-carat-2-n-s, .ui-datatable .ui-datatable-sticky table thead tr .ui-state-default .ui-icon-carat-2-n-s {
+		background-color: #dae8ef;
+	}
+	.ui-datatable .ui-datatable-even {
+		background-color: #dae8ef; /*#CBCBCB;*/
+	}
+	
+ 	.ui-outputlabel {
+		color: black;
+	} 
+	
+	/* Mis estilos de tamaños*/
+	
+	.ui-outputlabel {
+		font-size: 12px;
+	}
+	
+	.ui-inputfield {
+		font-size: 12px;
+	}
+	
+	.ui-datatable table tbody td {
+		padding: 0px 6px !important;
+	}
+	
+	element.style {
+		width: 62%;
+	}
+	.ui-selectonemenu, .ui-selectcheckboxmenu {
+		padding: 0px 20px 0px 0px !important;
+	}
+	.ui-selectonemenu .ui-selectonemenu-trigger, .ui-selectcheckboxmenu .ui-selectcheckboxmenu-trigger {
+	padding: 0px 0px !important;	
+	}
+    
+    .ui-button.ui-button-icon-only .ui-button-text{
+    	padding:0px 0px !important; 
+    	border-radius:30px !important; 
+    	-webkit-border-radius:30px !important; 
+    	-moz-border-radius:30px !important;
+    }
+    
+    
+    /* Alinea los datatable arriba*/
+    element.style {
+		vertical-align: top;
+	}
+	
+	.ui-texteditor {
+	 
+}
+
+/* 	.ui-button {
+		margin: 0px 0px 0px 0px !important;
+
+	} */
+	
+/* 	.ui-button-icon-only {
+		min-width: 20px !important;
+		height: 27px;
+		font-size: xx-small;
+	} */

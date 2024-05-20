@@ -1,0 +1,92 @@
+.botonMapaGoogle{
+	background-image: url("../../images/Google-Maps-icon.png") !important;
+}
+
+.botonSinFondo, .botonSinFondo .ui-button-text {
+	background-color: transparent!important;
+	font-weight: bold;
+	color: #0091ea!important;
+}
+
+.botonSinFondo_editor, .botonSinFondo_editor .ui-button-text {
+	background-color: transparent!important;
+	font-weight: bold;
+	color: #000000!important;
+}
+
+.botonFondoTexto .ui-button-text {
+	margin-left: 10px !important;
+}
+
+.botonFondo16 {
+	background-size: 16px 16px !important;
+}
+
+.botonFondo24 {
+	background-size: 24px 24px !important;
+}
+
+.botonFondo25 {
+	background-size: 25px 25px !important;
+}
+
+.botonFondo30 {
+	background-size: 30px 30px !important;
+}
+
+.botonFondo40 {
+	background-size: 40px 40px !important;
+}
+
+.botonFondo50 {
+	background-size: 50px 50px !important;
+}
+
+.boton50 .ui-icon {
+	margin-top: -14px !important;
+	height: 50px !important;
+	width: 50px !important;	
+}
+
+.boton40 .ui-icon {
+	margin-top: -14px !important;
+	height: 40px !important;
+	width: 40px !important;	
+}
+
+.boton40Relleno .ui-icon {
+	margin-top: -25px !important;
+	height: 40px !important;
+	width: 40px !important;	
+}
+
+.boton30 .ui-icon {
+	margin-top: -14px !important;
+	height: 30px !important;
+	width: 30px !important;	
+}
+
+.boton25 .ui-icon {
+	margin-top: -8px !important;
+	height: 25px !important;
+	width: 25px !important;	
+}
+
+.boton24Relleno .ui-icon {
+	margin-top: -13px !important;
+	left: 2px !important;
+	height: 24px !important;
+	width: 24px !important;	
+}
+
+.boton24 .ui-icon {
+	margin-top: -8px !important;
+	height: 24px !important;
+	width: 24px !important;	
+}
+
+.boton16 .ui-icon {
+	margin-top: -8px !important;
+	height: 16px !important;
+	width: 16px !important;	
+}
